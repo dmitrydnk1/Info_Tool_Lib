@@ -63,6 +63,7 @@ class My_Class(CLS_INFO):
 my_class = My_Class()
 my_class
 ```
+![Class extension view, from Eaxmples](Examples\_example_CLS_INFO_01.png)
 
 ## Reporter Initialization Example:
     
@@ -80,6 +81,7 @@ Reports_Settings.set_deafult_report_path(REPORTS_ABS_PATH)
 
 ## Reporter Example:
 
+- ### Reporter Example - Section A:
 ```python
 import numpy as np
 import pandas as pd
@@ -147,7 +149,12 @@ contained_elements_large: dict = {  'Param F': 15,
                                     'Param H': 35.6, }
 
 report.add_param_value_table_big(contained_elements_large)
+```
+![Resulted Section A](Examples\_example_report_section_A.png)
 
+
+- ### Reporter Example - Section B:
+```python
 # --------------------------------------------------------------------------------
 #
 #    SECTION B: Adding DataFrames, Function Source-Code, Hide/Show Region: 
@@ -190,7 +197,11 @@ df: pd.DataFrame = prepare_df()
 # --- ADD DATAFRAME TABLE: ------------------------------------------------------
 
 report.add_dataframe_table(df, highlight_columns = ['age']) 
+```
+![Resulted Section B](Examples\_example_report_section_B.png)
 
+- ### Reporter Example - Section C:
+```python
 # --------------------------------------------------------------------------------
 #
 #                   SECTION C: Adding Charts
@@ -235,7 +246,11 @@ report.add_plot(fig)
 
 # (Optional) Clear the figure, to free memory.
 fig.clear()
+```
+![Resulted Section C](Examples\_example_report_section_C.png)
 
+- ### Reporter Example - Section D:
+```python
 # --------------------------------------------------------------------------------
 #
 #                   SECTION D: Adding Large DataFrames
@@ -265,10 +280,16 @@ report.add_dataframe_table(large_df, highlight_columns = ['A', 'B', 'D'], color_
 
 report.save()
 ```
+![Resulted Section D](Examples\_example_report_section_D.png)
 
 ---
 
 ### GENERATED EXAMPLE REPORT, located at `Examples\example_html_by_reporter.html`
+
+## Reporter result html file, from a code above:
+Examples\example_html_by_reporter.html
+[View the webpage](Examples\example_html_by_reporter.html)
+
 
 ---
 
@@ -307,3 +328,4 @@ for i in range(steps):
     time.sleep(wait_period)
     pass
 ```
+![Progress-Bar in VS-Code](Examples\_example_ProgressBar_01.png)
