@@ -284,11 +284,9 @@ report.save()
 
 ---
 
-### GENERATED EXAMPLE REPORT, located at `Examples\example_html_by_reporter.html`
-
-## Reporter result html file, from a code above:
-Examples\example_html_by_reporter.html
-[View the webpage](Examples/example_html_by_reporter.html)
+- ### Reporter result html file, from a code above:
+`Examples\example_html_by_reporter.html`
+[Go to html file](Examples/example_html_by_reporter.html)
 
 
 ---
