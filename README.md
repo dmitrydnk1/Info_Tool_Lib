@@ -63,7 +63,7 @@ class My_Class(CLS_INFO):
 my_class = My_Class()
 my_class
 ```
-![Class extension view, from Eaxmples](Examples\_example_CLS_INFO_01.png)
+![Class extension view, from Eaxmples](Examples/_example_CLS_INFO_01.png)
 
 ## Reporter Initialization Example:
     
@@ -150,7 +150,7 @@ contained_elements_large: dict = {  'Param F': 15,
 
 report.add_param_value_table_big(contained_elements_large)
 ```
-![Resulted Section A](Examples\_example_report_section_A.png)
+![Resulted Section A](Examples/_example_report_section_A.png)
 
 
 - ### Reporter Example - Section B:
@@ -198,7 +198,7 @@ df: pd.DataFrame = prepare_df()
 
 report.add_dataframe_table(df, highlight_columns = ['age']) 
 ```
-![Resulted Section B](Examples\_example_report_section_B.png)
+![Resulted Section B](Examples/_example_report_section_B.png)
 
 - ### Reporter Example - Section C:
 ```python
@@ -247,7 +247,7 @@ report.add_plot(fig)
 # (Optional) Clear the figure, to free memory.
 fig.clear()
 ```
-![Resulted Section C](Examples\_example_report_section_C.png)
+![Resulted Section C](Examples/_example_report_section_C.png)
 
 - ### Reporter Example - Section D:
 ```python
@@ -280,7 +280,7 @@ report.add_dataframe_table(large_df, highlight_columns = ['A', 'B', 'D'], color_
 
 report.save()
 ```
-![Resulted Section D](Examples\_example_report_section_D.png)
+![Resulted Section D](Examples/_example_report_section_D.png)
 
 ---
 
@@ -288,7 +288,7 @@ report.save()
 
 ## Reporter result html file, from a code above:
 Examples\example_html_by_reporter.html
-[View the webpage](Examples\example_html_by_reporter.html)
+[View the webpage](Examples/example_html_by_reporter.html)
 
 
 ---
@@ -328,4 +328,4 @@ for i in range(steps):
     time.sleep(wait_period)
     pass
 ```
-![Progress-Bar in VS-Code](Examples\_example_ProgressBar_01.png)
+![Progress-Bar in VS-Code](Examples/_example_ProgressBar_01.png)
