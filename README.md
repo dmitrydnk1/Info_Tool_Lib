@@ -292,7 +292,6 @@ report.save()
 ---
 
 ## Progress Bar Example:
-
 ```python
 import numpy as np
 import time
@@ -311,7 +310,6 @@ pb.end()
 ```
 
 ## Progress Bar for Jupyter Notebook:
-
 ```python
 import numpy as np
 import time
@@ -327,3 +325,15 @@ for i in range(steps):
     pass
 ```
 ![Progress-Bar in VS-Code](Examples/_example_ProgressBar_01.png)
+
+## View Colormaps in Jupyter Enviroments:
+```python
+from info_tool_lib import COLOR_MAP
+
+# View Colormaps by name-list. 
+COLOR_MAP.show_colormaps(['viridis', 'plasma', 'inferno', 'magma'])
+
+# View Colormaps by index-list.
+COLOR_MAP.show_colormaps([x for x in range(40, 100)])
+```
+![COLOR_MAP view in VS-Code](Examples/_example_COLORMAPS.png)
