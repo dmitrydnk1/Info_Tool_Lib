@@ -2,7 +2,7 @@
 
 A Collections of handy tools to view and process daily-routines information, while working with Python, Jupyter to make life easier.
 
-## Contains sub-modules for
+## Contains sub-modules for:
 
 1. Jupyter Notebooks Class extension, for view class variables. (CLS_INFO)
     Made for simple view, of class informations updates, while working in Jupyter enviroment.
@@ -11,7 +11,7 @@ A Collections of handy tools to view and process daily-routines information, whi
 4. Some functions for Plotting, including view of variaius Color-Maps.
 5. Chat-Bot, for sending custom updated by chatbot.
 
-# For BEST Experience, Use with VS_CODE. 
+# (👉ﾟヮﾟ)👉 For BEST Experience, use with VS_CODE
 
 ## Installation
 
@@ -32,7 +32,7 @@ A Collections of handy tools to view and process daily-routines information, whi
 
 Kindly refer to Examples sub-folder, with Jupyter Notebooks, for demonstration of base functionality.
 
-## CLASS EXTENSION Example:
+## Class Eextension Example:
     
 ```python
 from info_tool_lib import CLS_INFO               
