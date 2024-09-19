@@ -33,6 +33,7 @@ A Collections of handy tools to view and process daily-routines information, whi
 Kindly refer to Examples sub-folder, with Jupyter Notebooks, for demonstration of base functionality.
 
 ## CLASS EXTENSION Example:
+    
     ```python
     from info_tool_lib import CLS_INFO               
 
@@ -64,6 +65,7 @@ Kindly refer to Examples sub-folder, with Jupyter Notebooks, for demonstration o
     ```
 
 ## Reporter Initialization Example:
+    
     ```python
     from info_tool_lib import Reports_Settings
 
@@ -77,6 +79,7 @@ Kindly refer to Examples sub-folder, with Jupyter Notebooks, for demonstration o
     ```
 
 ## Reporter Example:
+    
     ```python
     import numpy as np
     import pandas as pd
@@ -266,6 +269,7 @@ Kindly refer to Examples sub-folder, with Jupyter Notebooks, for demonstration o
 ### GENERATED EXAMPLE REPORT, located in `Examples\example_html_by_reporter.html`
 
 ## Progress Bar Example:
+    
     ```python
     import numpy as np
     import time
@@ -284,6 +288,7 @@ Kindly refer to Examples sub-folder, with Jupyter Notebooks, for demonstration o
     ```
 
 ## Progress Bar for Jupyter Notebook:
+    
     ```python
     import numpy as np
     import time
