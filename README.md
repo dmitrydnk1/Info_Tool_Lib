@@ -64,9 +64,9 @@ my_class = My_Class()
 my_class
 ```
 - Default compact View:
-    ![Class extension view (minimized), from Eaxmples](Examples/_example_CLS_INFO_01.png)
+    ![Class extension view (minimized), from Eaxmples](Examples/_example_CLS_INFO_1.png)
 - With a selected data-types expanded:
-    ![Class extension view (with custom fileds), from Eaxmples](Examples/_example_CLS_INFO_02.png)
+    ![Class extension view (with custom fileds), from Eaxmples](Examples/_example_CLS_INFO_2.png)
 
 ## Reporter Initialization Example:
     
