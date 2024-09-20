@@ -63,10 +63,10 @@ class My_Class(CLS_INFO):
 my_class = My_Class()
 my_class
 ```
-- Default compact View:
-    ![Class extension view (minimized), from Eaxmples](Examples/_example_CLS_INFO_1.png)
+- Default compact View:                                
+    ![Class extension view (minimized), from Eaxmples](Examples/_imgs/_example_CLS_INFO_1.png)
 - With a selected data-types expanded:
-    ![Class extension view (with custom fileds), from Eaxmples](Examples/_example_CLS_INFO_2.png)
+    ![Class extension view (with custom fileds), from Eaxmples](Examples/_imgs/_example_CLS_INFO_2.png)
 
 ## Reporter Initialization Example:
     
@@ -153,7 +153,7 @@ contained_elements_large: dict = {  'Param F': 15,
 
 report.add_param_value_table_big(contained_elements_large)
 ```
-![Resulted Section A](Examples/_example_report_section_A.png)
+![Resulted Section A](Examples/_imgs/_example_report_section_A.png)
 
 
 - ### Reporter Example - Section B:
@@ -201,7 +201,7 @@ df: pd.DataFrame = prepare_df()
 
 report.add_dataframe_table(df, highlight_columns = ['age']) 
 ```
-![Resulted Section B](Examples/_example_report_section_B.png)
+![Resulted Section B](Examples/_imgs/_example_report_section_B.png)
 
 - ### Reporter Example - Section C:
 ```python
@@ -250,7 +250,7 @@ report.add_plot(fig)
 # (Optional) Clear the figure, to free memory.
 fig.clear()
 ```
-![Resulted Section C](Examples/_example_report_section_C.png)
+![Resulted Section C](Examples/_imgs/_example_report_section_C.png)
 
 - ### Reporter Example - Section D:
 ```python
@@ -283,12 +283,12 @@ report.add_dataframe_table(large_df, highlight_columns = ['A', 'B', 'D'], color_
 
 report.save()
 ```
-![Resulted Section D](Examples/_example_report_section_D.png)
+![Resulted Section D](Examples/_imgs/_example_report_section_D.png)
 
 ---
 
 - ### Reporter result html file, from a code above:
-`Examples\example_html_by_reporter.html`
+`Examples/example_html_by_reporter.html`
 [Go to html file](Examples/example_html_by_reporter.html)
 
 
@@ -327,7 +327,7 @@ for i in range(steps):
     time.sleep(wait_period)
     pass
 ```
-![Progress-Bar in VS-Code](Examples/_example_ProgressBar_01.png)
+![Progress-Bar in VS-Code](Examples/_imgs/_example_ProgressBar_01.png)
 
 ## View Colormaps in Jupyter Enviroments:
 ```python
@@ -339,4 +339,34 @@ COLOR_MAP.show_colormaps(['viridis', 'plasma', 'inferno', 'magma'])
 # View Colormaps by index-list.
 COLOR_MAP.show_colormaps([x for x in range(40, 100)])
 ```
-![COLOR_MAP view in VS-Code](Examples/_example_COLORMAPS.png)
+![COLOR_MAP view in VS-Code](Examples/_imgs/_example_COLORMAPS.png)
+
+
+## Chat Bot Initialization:
+```python
+# Can be initiated once, in any of the python code, 
+#   and default values will be used in all futher calls and projects.    
+# Set the Default Channel Link:
+Chat_Bot.cfg_set_channel_link_default('https://mylink/1234567890')
+```
+
+### How to get a Link:
+1. Register Discord.
+2. Create a channel, to receive messages. 
+    You may use multiple, with each for dedicated purpose. ( To store computation progress, to Log Errors, ...)
+    ![Chat Bot Example:](Examples/_imgs/_example_discord_01.png)
+3. Open Channel Settings.
+    ![Chat Bot Example:](Examples/_imgs/_example_discord_02.png)
+4. Click Integrations -> Webhooks
+    ![Chat Bot Example:](Examples/_imgs/_example_discord_03.png)
+5. Make new Webhook, and copy the link to your code.
+    ![Chat Bot Example:](Examples/_imgs/_example_discord_04.png)
+
+
+## Chat Bot Example:
+```python
+# Create a Chat Bot Object, and send a message:
+#   Module used async operations, so it should not affect your performnce.
+chat_bot: Chat_Bot = Chat_Bot()
+chat_bot.send('Hello World!')
+``` 
