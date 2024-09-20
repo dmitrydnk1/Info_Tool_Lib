@@ -63,10 +63,13 @@ class My_Class(CLS_INFO):
 my_class = My_Class()
 my_class
 ```
-- Default compact View:                                
-    ![Class extension view (minimized), from Eaxmples](Examples/_imgs/_example_CLS_INFO_1.png)
-- With a selected data-types expanded:
-    ![Class extension view (with custom fileds), from Eaxmples](Examples/_imgs/_example_CLS_INFO_2.png)
+- ### Default compact View:
+
+![Class extension view (minimized), from Eaxmples](Examples/_imgs/_example_CLS_INFO_1.png)
+
+- ### With a selected data-types expanded:
+
+![Class extension view (with custom fileds), from Eaxmples](Examples/_imgs/_example_CLS_INFO_2.png)
 
 ## Reporter Initialization Example:
     
@@ -82,7 +85,7 @@ REPORTS_PATH:     str = 'my_reports\\'
 Reports_Settings.set_deafult_report_path(REPORTS_ABS_PATH)
 ```
 
-## Reporter Example:
+# Reporter:
 
 - ### Reporter Example - Section A:
 ```python
@@ -288,7 +291,7 @@ report.save()
 ---
 
 - ### Reporter result html file, from a code above:
-`Examples/example_html_by_reporter.html`
+
 [Go to html file](Examples/example_html_by_reporter.html)
 
 
