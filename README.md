@@ -350,17 +350,22 @@ COLOR_MAP.show_colormaps([x for x in range(40, 100)])
 Chat_Bot.cfg_set_channel_link_default('https://mylink/1234567890')
 ```
 
-### How to get a Link:
+### How to get a Link ( 5 Steps ):
 1. Register Discord.
+
 2. Create a channel, to receive messages. 
-    You may use multiple, with each for dedicated purpose. ( To store computation progress, to Log Errors, ...)
-    ![Chat Bot Example:](Examples/_imgs/_example_discord_01.png)
+You may use multiple, with each for dedicated purpose. 
+( To store computation progress, to Log Errors, ...)
+![Chat Bot Example:](Examples/_imgs/_example_discord_01.png)
+
 3. Open Channel Settings.
-    ![Chat Bot Example:](Examples/_imgs/_example_discord_02.png)
+![Chat Bot Example:](Examples/_imgs/_example_discord_02.png)
+
 4. Click Integrations -> Webhooks
-    ![Chat Bot Example:](Examples/_imgs/_example_discord_03.png)
+![Chat Bot Example:](Examples/_imgs/_example_discord_03.png)
+
 5. Make new Webhook, and copy the link to your code.
-    ![Chat Bot Example:](Examples/_imgs/_example_discord_04.png)
+![Chat Bot Example:](Examples/_imgs/_example_discord_04.png)
 
 
 ## Chat Bot Example:
