@@ -32,7 +32,7 @@ A Collections of handy tools to view and process daily-routines information, whi
 
 Kindly refer to Examples sub-folder, with Jupyter Notebooks, for demonstration of base functionality.
 
-## Class Eextension Example:
+## Class Extension Example:
     
 ```python
 from info_tool_lib import CLS_INFO               
